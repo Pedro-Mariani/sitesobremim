@@ -65,9 +65,9 @@
                     telefone:<a href="tel:(51) 981296279">(51) 981296279</a>
                     <form action="">
                         <label for="nome">Nome:</label><br>
-                        <input type="text" id="nome" name="nome"><br>
+                        <input type="text" id="nome" name="nome" required><br>
                         <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email"><br>
+                        <input type="email" id="email" name="email" required><br>
                         <label for="mensagem">Mensagem:</label><br>
                         <label for="assunto">Assunto:</label><br>
                         <select name="assunto" id="assunto">
@@ -76,8 +76,17 @@
                             <option value="outro">Outro</option>
                         </select>
                         <br>
-                        <textarea id="mensagem" name="mensagem"></textarea><br>
+                        <textarea id="mensagem" name="mensagem" cols="40" rows="5" required></textarea><br>
                         <input type="submit" value="Enviar">
+                    
+                        <input type="checkbox" id="incricao" name="inscricao">
+                            <label for="inscricao"> deseja receber minha newsletter?</label>
+
+
+                    </br>
+
+                    <input type="submit" value="Enviar mensagem">
+                    </form>
                     </adress>
         </section>>
    
